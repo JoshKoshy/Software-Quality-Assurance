@@ -1,0 +1,26 @@
+ERRORS 
+
+QUIT BUMBLEBEE 
+Expected:
+Note BUMBLEBEE was ignored
+and quit 
+Observed:
+quit
+
+LET ABBY 1
+Expected:
+error: cannot initilize anything but single char and ignore 
+observed:
+ignore line
+
+LET 8 LET 3
+Expected:
+error: keywords can only start
+observed:
+ignore line
+
+1 9 s
+Expected:
+error: ? 
+observed: array out of bounds exception
+
